@@ -8,7 +8,7 @@ export const portfolioData = {
     email: "subinsr812@gmail.com",
     github: "https://github.com/Subin-2005",
     linkedin: "http://www.linkedin.com/in/subin07",
-    resumeUrl: "#resume",
+    resumeUrl: "\resume1-Subin.pdf",
     avatar: "/avatar.svg",
   },
 
@@ -141,7 +141,7 @@ export const portfolioData = {
   socials: [
     { name: "GitHub", url: "https://github.com/Subin-2005", icon: "github" },
     { name: "LinkedIn", url: "http://www.linkedin.com/in/subin07", icon: "linkedin" },
-    { name: "Instagram", url: "https://instagram.com", icon: "instagram" },
+    { name: "Instagram", url: "https://www.instagram.com/itz_subin_360?igsi=MTQzaTUxZHdmOWZtbw==", icon: "instagram" },
     { name: "Email", url: "mailto:subinsr812@gmail.com", icon: "mail" },
   ],
 };

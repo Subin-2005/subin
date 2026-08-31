@@ -33,7 +33,8 @@ export function HeaderHero({ personal, navLinks, socials, activeSection, onOpenR
         <div style={{ marginBottom: '2rem' }}>
           <button
             type="button"
-            onClick={onOpenResume}
+            // onClick={onOpenResume}
+            onClick={()=> window.open('/resume1-Subin.pdf', '_blank')}
             className="btn-primary"
             style={{ fontSize: '0.8125rem', padding: '0.5rem 1rem' }}
           >
