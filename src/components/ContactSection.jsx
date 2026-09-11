@@ -79,7 +79,7 @@ export function ContactSection({ personal }) {
     <section id="contact" className="content-section" aria-label="Contact information">
       <div className="section-sticky-header">
         <h2 className="section-title">
-          <span className="section-title-num">05.</span>
+          <span className="section-title-num">06.</span>
           Get In Touch
         </h2>
       </div>

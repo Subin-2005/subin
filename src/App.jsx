@@ -6,6 +6,7 @@ import { AboutSection } from './components/AboutSection'
 import { CertificationsSection } from './components/CertificationsSection'
 import { ProjectsSection } from './components/ProjectsSection'
 import { SkillsSection } from './components/SkillsSection'
+import { GallerySection } from './components/GallerySection'
 import { ContactSection } from './components/ContactSection'
 import { Footer } from './components/Footer'
 import { ResumeModal } from './components/ResumeModal'
@@ -72,6 +73,8 @@ export function App() {
           <ProjectsSection projects={portfolioData.projects} />
 
           <SkillsSection skills={portfolioData.skills} />
+
+          <GallerySection gallery={portfolioData.gallery} />
 
           <ContactSection personal={portfolioData.personal} />
 
