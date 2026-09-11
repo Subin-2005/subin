@@ -35,7 +35,7 @@ export function MobileNav({ navLinks, activeSection, onOpenResume, personal }) {
         </a>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-          <button
+          {/* <button
             type="button"
             onClick={onOpenResume}
             className="btn-primary"
@@ -43,7 +43,7 @@ export function MobileNav({ navLinks, activeSection, onOpenResume, personal }) {
           >
             <FileText size={13} />
             <span>CV</span>
-          </button>
+          </button> */}
 
           <button
             type="button"

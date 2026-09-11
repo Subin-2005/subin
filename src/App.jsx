@@ -9,7 +9,7 @@ import { SkillsSection } from './components/SkillsSection'
 import { GallerySection } from './components/GallerySection'
 import { ContactSection } from './components/ContactSection'
 import { Footer } from './components/Footer'
-import { ResumeModal } from './components/ResumeModal'
+// import { ResumeModal } from './components/ResumeModal'
 import { MobileNav } from './components/MobileNav'
 import './App.css'
 
@@ -83,13 +83,13 @@ export function App() {
       </div>
 
       {/* Interactive Résumé Modal */}
-      <ResumeModal
+      {/* <ResumeModal
         isOpen={isResumeOpen}
         onClose={() => setIsResumeOpen(false)}
         personal={portfolioData.personal}
         certifications={portfolioData.certifications}
         skills={portfolioData.skills}
-      />
+      /> */}
     </div>
   )
 }
